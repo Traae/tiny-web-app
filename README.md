@@ -3,17 +3,17 @@
 ## Intro
 Built with React (CRA), Node.js w/ TypeScript, and MongoDB.
 
-## Run instructions
+## Quick Start
 ```
 // open a terminal window
 // start server
-cd tiny-server/
+cd path/to/tiny-server/
 npm install
 npm run
 
 // open another terminal window
 // start client
-cd tiny-client/
+cd path/to/tiny-client/
 npm install
 npm run
 ```
