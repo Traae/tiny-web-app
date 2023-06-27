@@ -33,7 +33,6 @@ MongoClient.connect(mongoDBAddress).then(mongoClient => {
 
     // ***API: PING***
     app.get('/api/ping', (_, res) => {
-        // EXCERCISE: Update response shape
         res.send('pong');
     });
 }).catch(err => {
